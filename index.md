@@ -1,14 +1,21 @@
 # Welcome to PSDAMSSPS's GitHub Page
 
+#### PSDAMSSPS : Phase Synchronization in a Dry Active Matter System of Self-Propelled Swimmers 
 
-You can use the [editor on GitHub](https://github.com/rasoulkajouri/codes/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This Code is a primary version of my master project in the soft condenced matter Physics.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Our main objective is introducing the phase as a new freedom degree in a dry active matter system. the best mathematical model to describe a active matter system is [Vicsek model](https://en.wikipedia.org/wiki/Vicsek_model). There are diverse examples to show active matter system in nature such as birds swarming, cattle flocking, etc. 
+The Vicsek's model is very simple to show active matter and also, is very applicable. The phase transition and its order is the most significant part of this model. One of the most famous examples of active matter is the Chlamydomonas algea swarming.
 
-### Markdown
+Recently, in the bioPhysics science, it has been shown the flagella of each algea are synchronized after enough time. we suppose the phase difference value between each pair flagella has a oscillation behavior and this oscillator has a internal angular frequency. On the other hand, the felagella's motion of a group algea has a syncronized rhythm. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+we introduce this phase difference as a freedom degree in the spatial equations of swimmer's motion so that is effective in the swimmer's orientation, we get the sine function of the ith phase's swimmer with the local phase order parameter. there is a interaction radius to define the distance of neibourhood. we use the [Kuramoto model](https://en.wikipedia.org/wiki/Kuramoto_model) to iilustrate the tiem evolution of swimmer's phase. 
 
+Moreover, we define viewfield for each swimmer.
+
+![Image]()
+
+### mathmatical formula
 ```markdown
 Syntax highlighted code block
 
