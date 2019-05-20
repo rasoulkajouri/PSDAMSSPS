@@ -17,21 +17,9 @@ Moreover, we define viewfield for each swimmer.
 
 ### mathmatical formula
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+\begin{equation}
+\dot{r}_i = 
+\end{equation}
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
