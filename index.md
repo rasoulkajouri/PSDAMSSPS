@@ -28,3 +28,35 @@ at the above formula $r$ is the spatial position of ith siwmmer and $\theta$ is 
 tht two last formula is the orientation and phase order parameter respectively.
 when the order parameter is near 0, that means the values of elements are distributed randomly, therefore there is no orientation and phase aligment in our system but if the order parameter be near 1, the interpretation of this result is the phase or orientation alignment. 
 So, you can find more info. about the two above models and other applied concepts in this tutorial at the [Google](www.google.com)
+
+
+# Some note about the package
+To run the package you have to install [MPICH](https://www.mpich.org/) package, also you should switch on C++11. to switch on C++11; it is enough your C++ compiler's version be greater than 4.7. 
+
+For now you can compile the package by using the following syntax in the command.
+```
+mpic++ -std=c++11 ./include/*.h ./source/*.cpp -o run
+```
+do not forget you have to create the output and input directory into master directory of the package. also you need a file into input directory to store the initial values. you can type the values like the following:
+1. number of swimmers
+2. height
+3. width
+4. total time (500 sec)
+5. noise strength
+6. coupling strength
+7. interval time (0.01 sec)
+8. mean of distro.
+9. variance of distro.
+10. orientation interaction radius
+11. phase interaction radius
+12. view field (30 degree)
+13. epsilon (coefficient of sine fucntion in the time evolution expreesion)
+14. velocity of swimmers
+
+you can run the code by using the follwoing commnad in terminal
+```
+mpirun -np X ./run Y Z
+```
+
+X is number of process that is related to the mpich package
+Y is a boolean element, if it is 0 
