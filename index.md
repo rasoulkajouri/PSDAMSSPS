@@ -19,11 +19,9 @@ Moreover, we define viewfield for each swimmer.
 
 ### mathmatical formula
 
-```markdown
-\begin{equation}
-\dot{r}_i = 
-\end{equation}
-```
+<p align="center">
+  <img src="formula.png" width="400px">
+</p>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
