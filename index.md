@@ -1,3 +1,4 @@
+ 
 # Welcome to PSDAMSSPS's GitHub Page
 
 #### PSDAMSSPS : Phase Synchronization in a Dry Active Matter System of Self-Propelled Swimmers 
@@ -23,12 +24,7 @@ Moreover, we define viewfield for each swimmer.
   <img src="formula.png" width="400px">
 </p>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rasoulkajouri/codes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+at the above formula $r$ is the spatial position of ith siwmmer and $\theta$ is the ith swimmer's orientation also we illustrate the ith swimmer's phase with $\varphi$ symbol. $\zeta$ is the noise strength from 0 to 1, and $\eta(t)$ is a uniform distribution at the range $-pi$ to $pi$. $\langle\bar{\varphi}\rangle$ is the local phase order parameter at the kuramoto interaction radius and $\langle\bar{\theta}\rangle$ is the local orientation order parameter at the vicsek interaction radius.
+tht two last formula is the orientation and phase order parameter respectively.
+when the order parameter is near 0, that means the values of elements are distributed randomly, therefore there is no orientation and phase aligment in our system but if the order parameter be near 1, the interpretation of this result is the phase or orientation alignment. 
+So, you can find more info. about the two above models and other applied concepts in this tutorial at the [Google](www.google.com)
