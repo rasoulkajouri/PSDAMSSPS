@@ -12,8 +12,8 @@ Recently, in the bioPhysics science, it has been shown the flagella of each alge
 we introduce this phase difference as a freedom degree in the spatial equations of swimmer's motion so that is effective in the swimmer's orientation, we get the sine function of the ith phase's swimmer with the local phase order parameter. there is a interaction radius to define the distance of neibourhood. we use the [Kuramoto model](https://en.wikipedia.org/wiki/Kuramoto_model) to iilustrate the tiem evolution of swimmer's phase. 
 
 Moreover, we define viewfield for each swimmer.
-
-![Image]()
+ 
+ <img src="tempScheme.png" alt="image" width="400px"/>
 
 ### mathmatical formula
 ```markdown
