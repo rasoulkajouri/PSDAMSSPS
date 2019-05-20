@@ -58,5 +58,8 @@ you can run the code by using the follwoing commnad in terminal
 mpirun -np X ./run Y Z
 ```
 
-X is number of process that is related to the mpich package
-Y is a boolean element, if it is 0 
+X is number of process that is related to the mpich package, Y is a boolean element which could switch between 0 and 1, and Z is a boolean element that enable you to choose the initializtion mechanism (0 means from the user and 1 means from the located file into input directory).
+
+I surley provide the make and cmake file to compile the package as soon as possible.
+
+for more info. about the package and the possibly conllaboration, you can find me at : rasoulkajouri [at] Gmail.com
