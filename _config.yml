@@ -1,5 +1,0 @@
-theme: jekyll-theme-midnight
-div.text_cell_render{
-    text-align: justify;
-    text-justify: inter-word;
-}
