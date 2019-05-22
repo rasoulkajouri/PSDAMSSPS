@@ -4,7 +4,7 @@ void swimmer :: timeEvolution(swimmer* agent[], float *phaseTemp, float *orienta
 
 //	std::cout <<"P: "<< i <<" orien: "<< orientationTemp[C];
 	int count = 0;
-	float sum	= 0,
+	float sum = 0,
 				sumSinPhase = 0,
 				sumCosPhase = 0,
 				localOrderP = 0,
@@ -44,7 +44,7 @@ void swimmer :: timeEvolution(swimmer* agent[], float *phaseTemp, float *orienta
 	localOrderP += (localOrderP<0)? TwoPi : 0;
 
 	orientationTemp[C] = atan2(sumSinAngle, sumCosAngle);
-	orientationTemp[C] += (orientationTemp<0) ? TwoPi : 0;
+	orientationTemp[C] += (orientationTemp[C]<0) ? TwoPi : 0;
 
 	orientationTemp[C] += (noiseStrength>0) ? ((2.0 * Pi * uniform_sec() - Pi) * noiseStrength) : 0;
 	orientationTemp[C] += epsilon * sin(localOrderP - phase);
